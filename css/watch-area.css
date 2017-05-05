@@ -1,0 +1,11 @@
+.watch-area {
+    text-align: center;
+}
+.watch-area h4 {
+    color: #FFF;
+    text-align: center;
+}
+.watch-area video{
+    max-width: 90%;
+    margin: 20px;
+}

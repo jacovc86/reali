@@ -1,0 +1,8 @@
+<div class="activity-selector">
+    <ul class="activities" ng-if="$ctrl.list">
+        <li class="activity" ng-repeat="item in $ctrl.list">
+            <a class="activity-name" ng-click="$ctrl.onSelect({item: item})" ng-bind="item.title"></a>
+        </li>
+    </ul>
+    <div ng-show="!$ctrl.list" class="loading">Loading...</div>
+</div>

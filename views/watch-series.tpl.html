@@ -1,0 +1,5 @@
+<div class="container">
+    <activity-selector list="$ctrl.seriesList" on-select="$ctrl.selectSeries(item)"></activity-selector>
+    <activity-selector ng-if="$ctrl.selectedSeries" list="$ctrl.selectedSeries.episodes" on-select="$ctrl.watch(item)"></activity-selector>
+    <watch-area ng-if="$ctrl.selectedEpisode" movie="$ctrl.selectedEpisode"></watch-area>
+</div>

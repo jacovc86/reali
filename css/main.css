@@ -1,0 +1,12 @@
+@import "./watch-series.css";
+@import "./watch-area.css";
+@import "./activity-selector.css";
+a[ng-click]:hover {
+    cursor: pointer;
+    opacity: .7;
+}
+.loading {
+    text-align: center;
+    color: #A0A0A0;
+    padding: 10px;
+}
